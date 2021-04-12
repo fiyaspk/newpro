@@ -1,0 +1,35 @@
+input{
+    height: 40px;
+    width: 400px;
+    border: 2px solid rgb(233, 233, 238);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+button{
+    height: 50px;
+    width: 200px;
+    border: solid rgb(75, 70, 70);
+    border-radius: 10px;
+    padding: 1%;
+    background-image: linear-gradient(rgb(187, 119, 119),rgb(161, 161, 167));
+    font-size: x-large;    
+}
+table{
+    border: rgb(46, 20, 20)solid 4px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(#796f6f,white);
+    
+
+    
+}
+.head{
+    font-size: 50px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+button:hover{
+    background-image: linear-gradient(red,rgb(137, 137, 150));
+}

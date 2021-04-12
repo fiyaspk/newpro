@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <form action="" method="POST">
+    <table align="center" border="0" width="200px" cellpadding="20" cellspacing="10" height="30px">
+        <tr>
+            <th class="head">
+                Profile Login
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="username" required >
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="password" required>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button type="submit">login</button>
+            </td>
+            <tr>
+                <td align="center">
+                <button type="reset">Clear</button>
+                </td>
+            </tr>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
