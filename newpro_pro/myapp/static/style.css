@@ -1,6 +1,11 @@
 body {
-    background-image: linear-gradient(blue white);
-} 
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 input{
     height: 40px;
     width: 400px;
@@ -35,4 +40,7 @@ table{
 }
 button:hover{
     background-image: linear-gradient(red,rgb(137, 137, 150));
+}
+table:hover{
+    background-image: linear-gradient(blue white);
 }
