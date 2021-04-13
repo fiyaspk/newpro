@@ -41,6 +41,3 @@ table{
 button:hover{
     background-image: linear-gradient(red,rgb(137, 137, 150));
 }
-table:hover{
-    background-image: linear-gradient(blue white);
-}
